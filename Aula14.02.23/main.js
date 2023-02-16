@@ -16,7 +16,7 @@ console.log(nomeCompleto);  // nome da variável, não vai aspas, o código proc
 
 
 
-nomeCompleto = "Julia Lopes da Silva Gascho";  // reatribuição, redefini o valor da variável
+nomeCompleto = "Julia Lopes da Silva Gascho";  // reatribuição, redefine o valor da variável
 
 console.log(nomeCompleto);
 
