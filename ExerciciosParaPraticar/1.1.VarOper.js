@@ -60,3 +60,15 @@ console.log("------------------------");
 let tempK = 289
 tempC = tempK - 273
 console.log(`A temperatura ${tempK} K é equivalente a ${tempC}°C.`) 
+
+// ou
+
+function exercicio5(kelvin){
+
+    let celsius = kelvin - 273;
+    return celsius;
+
+}
+
+let k = 290
+console.log(`A temperatura ${k}K em Celsius é ` + exercicio5(k) + "°C");

@@ -103,3 +103,19 @@ if(
 } else{
     console.log(`O ano de ${ano} não é bissexto.`);
 }
+
+
+// ou
+
+
+let ano2 = 2023
+
+function exercicio2(ano2){
+    if((ano2 % 4 == 0 && ano2 % 100 != 0) || (ano2 % 4 == 0 && ano2 % 100 == 0 && ano2 % 400 == 0)) {
+        console.log(`O ano ${ano2} é bissexto.`);
+    }else{
+        console.log(`O ano ${ano2} não é bissexto.`);
+    }
+}
+
+// exercicio2(ano2);

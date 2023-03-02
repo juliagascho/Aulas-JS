@@ -97,5 +97,5 @@ console.log(cQuadrado(5));
 console.log("\n");
 
 //3:
-const cPerfil = (nome, idade, cidade) => `Olá, meu nome é ${nome}, tenho ${idade} anos e moro em ${cidade}.`
+const cPerfil = (nome, idade, cidade) => (`Olá, meu nome é ${nome}, tenho ${idade} anos e moro em ${cidade}.`)
 console.log(cPerfil("Julia", "32", "Curitiba"));
