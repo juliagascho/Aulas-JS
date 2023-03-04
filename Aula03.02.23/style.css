@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;    
+    background-size: cover;
+    padding: 30px;
+    background-color: rgb(61, 145, 145);         
+}
+
+
+.container form {
+    width: 700px;
+    border: 2px solid rgb(28, 82, 82);  
+    padding: 10px;    
+    margin: 0 auto; /*centralizou o forms no container*/
+    border-radius: 5px;
+    background-image: url(https://files.sunoresearch.com.br/p/uploads/2019/11/formul%C3%A1rio-de-refer%C3%AAncia.jpg);
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container form input {
+    width: 280px;
+}
+
+.container form h3 {
+    color: rgb(28, 82, 82);  
+}
+
+.tabela {
+    max-width: 100%;    
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 0px;
+    border: 2px solid orange;    
+}
+
+.tabela h3 {
+    text-align: center;
+}
+
+.table {
+    text-align: left;
+    border-top: 2px dotted orange;
+}
+
